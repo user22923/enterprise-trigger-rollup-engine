@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Completed_Milestones_Count__c</fullName>
+    <defaultValue>0</defaultValue>
+    <description>Count of related Milestone__c records with Status__c = Completed. Maintained exclusively by MilestoneRollupService.</description>
+    <label>Completed Milestones Count</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+</CustomField>

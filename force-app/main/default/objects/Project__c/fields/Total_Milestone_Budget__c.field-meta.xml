@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Milestone_Budget__c</fullName>
+    <defaultValue>0</defaultValue>
+    <description>Sum of Amount__c across all related Milestone__c records. Maintained exclusively by MilestoneRollupService.</description>
+    <label>Total Milestone Budget</label>
+    <precision>16</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Currency</type>
+</CustomField>
